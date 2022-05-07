@@ -1,0 +1,10 @@
+{{this.artists.0.name}}
+{{#each tracks}}
+    <li>
+    {{this.name}}
+    {{this.duration_ms}}
+    
+    {{this.track_number}}
+    <a href="{{this.preview_url}}">preview</a>
+    </li>
+{{/each}}
